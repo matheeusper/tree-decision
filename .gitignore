@@ -16,6 +16,7 @@ jupyter_nbconvert_config.json
 .ipython/
 profile_default/
 *.nbconvert.ipynb
+*.ipynb
 
 # Ferramentas de sistema
 .DS_Store
