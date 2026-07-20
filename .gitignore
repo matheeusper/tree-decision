@@ -1,0 +1,28 @@
+# Ambiente virtual do uv
+.venv/
+
+# Cache do uv
+uv.lock
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+jupyter_nbconvert_config.json
+.ipython/
+profile_default/
+*.nbconvert.ipynb
+
+# Ferramentas de sistema
+.DS_Store
+Thumbs.db
+
+# Build / cache de pacotes
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
